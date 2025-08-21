@@ -1,1 +1,21 @@
 Lista 1
+
+Resolva os seguintes problemas lendo um arquivo de texto uma linha por vez e executando operações em cada linha na(s) estrutura(s) de dados apropriado(s).
+Suas implementações devem ser rápidas o suficiente para que mesmo arquivos contendo um milhão de linhas possam ser processados em poucos segundos.
+Para cada exercício, existe um arquivo execX.py correspondente, onde X corresponde ao número do exercício.
+Você deve completá-lo, escolhendo uma estrutura da seguinte lista de estruturas simplificadas:
+
+-- Pilha
+-- Fila
+-- Deque
+-- SSet
+-- USet 
+
+Não seram aceitas respostas que não utilizem essas estruturas. Essas estruturas estão no diretório EstruturasSimplificadas e podem ser importadas como um módulo:
+from EstruturasSimplificadas import *
+
+Para executar sua resposta, basta executar o programa python execX.py, onde X corresponde ao número do exercício.
+Para testar, basta executar o programa de teste correspondente: test_exercX.py.
+
+1. Leia a entrada de uma linha de cada vez e, em seguida, escreva as linhas em ordem inversa, de modo que a última linha de entrada seja impressa primeiro,
+depois a segunda última linha de entrada, e assim por diante. exec1.py 
