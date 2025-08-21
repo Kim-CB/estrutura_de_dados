@@ -1,6 +1,6 @@
 from EstruturasSimplificadas import *
 
-def exerc1(nome_arq = 'in1.txt'):
+def exerc1(nome_arq = "in1.txt"):
 
     pilha = Pilha()
     try: 
