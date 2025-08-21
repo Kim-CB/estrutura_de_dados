@@ -4,7 +4,7 @@ def exerc1(nome_arq = "in1.txt"):
 
     pilha = Pilha()
     try: 
-        arq_in = open(nome_arq, "r", encoding="utf8")
+        arq_in = open(nome_arq, "r", encoding="utf-8")
     except IOError:
         print("Erro ao abrir arquivo de entrada.")
         return
