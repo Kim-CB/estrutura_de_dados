@@ -1,0 +1,8 @@
+Lista 2
+
+Implemente um metódo rotate(r) que 'gire' uma Lista para que o item da lista i se torne o item da lista (i + r) mod n.
+Quando executado em um ArrayDeque , rotate(r) deve ser executado em tempo O(1 + min{r, n- r}).
+Para implementar essas funções devem ser utilizados os programas em python do livro. Só serão aceitos programas Python.
+
+test_rotate_lista.py deve ser executado para fazer 15 testes na solução.
+A solução deve ser implementada no arquivo arraydeque no diretório ods.
