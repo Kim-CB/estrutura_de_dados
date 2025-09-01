@@ -7,6 +7,7 @@ def exerc8(nome_arq = "in8.txt"):
         print("Erro ao abrir arquivo de entrada.")
         return
     
+    
     fila_par = Fila()
     fila_impar = Fila()
     conta = 0

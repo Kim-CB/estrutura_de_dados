@@ -11,6 +11,7 @@ def exerc4(nome_arq = "in4.txt"):
     for linha in arq_in:
         linha = linha.rstrip('\n')
         if linha not in linhas_vistas:
+            linhas_vistas.add(linha)
             linhas_unicas.add_last(linha)
             print(linha)
 
