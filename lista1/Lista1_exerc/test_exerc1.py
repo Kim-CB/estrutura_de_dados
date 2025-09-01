@@ -6,7 +6,7 @@
 
 import unittest
 import sys
-import os 
+import os
 from exerc1 import exerc1
 
 def conta_linhas(arq):
@@ -17,32 +17,32 @@ def conta_linhas(arq):
 
 class TestExerc1(unittest.TestCase):
     def setUp(self):
-        # Configuração do ambiente teste 
-        # Abrir um arquivo temporário para escrita 
-        self.arq_tmp = open('temp.txt', '+w')
+        # Configuração do ambiente de teste        
+        # Abrir um arquivo temporário para escrita
+        self.arq_tmp = open('temp.txt', "w+")
 
-        # Abrir o arquivo de resposta 
+        # Abrir o arquivo de resposta
         self.arq_resposta = open("out1.txt", "r")
-
+        
         # Redirecionar a saída para o arquivo temporário
         sys.stdout = self.arq_tmp
 
     def tearDown(self):
         # Finalização do ambiente de teste
         # Restaurar o stdout original (tela)
-        sys.stdout =  sys.__stdout__
+        sys.stdout = sys.__stdout__
         if self.arq_tmp:
-            self.arq_tmp.close()
+         self.arq_tmp.close()
         if self.arq_resposta:
-            self.arq_resposta.close()
+            self.arq_resposta.close()   
         os.remove('temp.txt')
-
-    def test_tamanho(self):
+    
+    def test_tamanho(self):        
         exerc1()
         self.arq_tmp.seek(0)
         nl1 = conta_linhas(self.arq_tmp)
         nl2 = conta_linhas(self.arq_resposta)
-        self.assertEqual(nl1, nl2, "Número de linhas diferente do esperado")
+        self.assertEqual(nl1, nl2, "Número de linhas diferente do esperado") 
         print("\nTeste de número de linhas OK", file=sys.stderr)
 
     def test_conteudo(self):
@@ -62,14 +62,14 @@ class TestExerc1(unittest.TestCase):
             return False
         print("\nTeste de entrada vazia OK", file=sys.stderr)
 
-    def test_milhao_linha_tam(self):
+    def test_milhao_linhas_tam(self):
         exerc1('milhao.txt')
         self.arq_tmp.seek(0)
         nl1 = conta_linhas(self.arq_tmp)
         nl2 = 1000000
-        self.assertEqual(nl1, nl2, "Número de linhas diferente do esperado")
+        self.assertEqual(nl1, nl2, "Número de linhas diferente do esperado") 
         print("\nTeste de milhão de linhas OK", file=sys.stderr)
-    
+
     def test_milhao_linhas_conteudo(self):
         exerc1('milhao.txt')
         self.arq_tmp.seek(0)
