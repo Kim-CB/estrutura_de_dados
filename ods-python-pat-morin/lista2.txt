@@ -1,0 +1,12 @@
+Lista 2
+
+Exc.2.1 - O metódo de Lista add_all(i,c) insere todos os elementos do Collection c na lista na posição i.
+(O método add(i,x) é um caso especial onde c = {x}.) Explique porque, para as estruturas de dados neste capítulo,
+não é eficiente implementar add_all(i, c) por chamadas repetidas para add(i,x). Conceber e implementar uma implementação mais eficiente.
+
+Implemente um metódo rotate(r) que 'gire' uma Lista para que o item da lista i se torne o item da lista (i + r) mod n.
+Quando executado em um ArrayDeque , rotate(r) deve ser executado em tempo O(1 + min{r, n- r}).
+Para implementar essas funções devem ser utilizados os programas em python do livro. Só serão aceitos programas Python.
+
+test_rotate_lista.py deve ser executado para fazer 15 testes na solução.
+A solução deve ser implementada no arquivo arraydeque no diretório ods.
