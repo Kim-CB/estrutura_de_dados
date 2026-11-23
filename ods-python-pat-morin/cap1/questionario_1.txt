@@ -1,0 +1,39 @@
+1.Explique brevemente por que estruturas de dados eficientes são cruciais na ciência da computação, fornecendo um exemplo prático do cotidiano.
+
+R:
+
+2.Qual a diferença fundamental entre a interface e a implementação de um Tipo Abstrato de Dados (TAD)? Por que essa separação é importante?
+
+R:
+
+3.Descreva a política FIFO (First-In, First-Out) e forneça um exemplo de uma estrutura de dados que a utiliza.
+
+R:
+
+4.Explique a diferença entre as operações add(x) e remove() em uma fila FIFO e em uma pilha (Stack). Quais termos são preferíveis para a pilha?
+
+R:
+
+5.Quais são as cinco operações básicas definidas para a interface Lista?
+
+R:
+
+6.Qual a principal distinção entre as interfaces USet (Unordered Set) e SSet (Sorted Set), especialmente em relação à operação find(x)?
+
+R:
+
+7.O que representa a notação Big-O em análise de algoritmos? Forneça um exemplo de como ela simplifica a descrição da complexidade.
+
+R:
+
+8.Explique o conceito de tempo de execução amortizado. Como ele difere do tempo de execução do pior caso?
+
+R:
+
+9.No modelo de computação palavra-RAM, quais tipos de operações são geralmente consideradas de custo constante?
+
+R:
+
+10.Por que a suposição de que o tamanho da palavra w >= log n é razoável no modelo palavra-RAM ao analisar estruturas de dados que armazenam n elementos?
+
+R:

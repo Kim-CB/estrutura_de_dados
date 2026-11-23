@@ -1,0 +1,40 @@
+1 - Quais são as principais vantagens das estruturas de dados que usam arrays como base?
+
+R:
+
+2 - Por que as operações add(i,x) e remove(i) em um ArrayStack têm tempos de execução que dependem de n e i (ignorando resize)?
+
+R:
+
+3 - Explique o conceito de custo amortizado no contexto de redimensionamento de array.
+
+R:
+
+
+4 - Como a aritmética modular é usada na implementação de um ArrayQueue?
+
+R:
+
+5 - Qual é a principal desvantagem de usar um ArrayStack para implementar uma fila FIFO?
+
+R:
+
+6 - Descreva a estratégia do ArrayDeque para otimizar as operações add(i,x) e remove(i) para índices perto das extremidades.
+
+R:
+
+7 - Como o DualArrayDeque combina dois ArrayStacks para implementar uma lista?
+
+R:
+
+8 - Explique o objetivo do método balance() em um DualArrayDeque.
+
+R:
+
+9 - Qual é o principal problema de espaço que o RootishArrayStack tenta resolver?
+
+R:
+
+10 - Como o RootishArrayStack distribui os elementos da lista entre seus blocos de array?
+
+R:
